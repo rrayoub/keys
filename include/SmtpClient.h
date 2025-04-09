@@ -9,9 +9,9 @@
 
 #include <string>
 #include <vector>
-#include <Windows.h>
 
-// Forward declaration to avoid including winsock2.h in header
+// Forward declarations to avoid including winsock2.h in header
+struct sockaddr_in;
 typedef unsigned int SOCKET;
 
 /**

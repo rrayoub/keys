@@ -3,11 +3,12 @@
  * @brief Implementation of the SmtpClient class
  */
 
+// Include winsock2.h before other Windows headers
+#include <winsock2.h>
+#include <ws2tcpip.h>
 #include "../include/SmtpClient.h"
 
 #pragma comment(lib, "ws2_32.lib")
-#include <winsock2.h>
-#include <ws2tcpip.h>
 #include <sstream>
 
 SmtpClient::SmtpClient(

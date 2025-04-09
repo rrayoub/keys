@@ -8,6 +8,8 @@
  */
 
 #include <iostream>
+// Include winsock2.h before windows.h to avoid conflicts
+#include <winsock2.h>
 #include <windows.h>
 #include <conio.h>
 #include "../include/KeyLogger.h"

@@ -9,6 +9,8 @@
 
 #pragma once
 
+// Include winsock2.h before Windows.h to avoid conflicts
+#include <winsock2.h>
 #include <Windows.h>
 #include <string>
 #include <fstream>

