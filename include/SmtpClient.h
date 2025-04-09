@@ -12,7 +12,7 @@
 
 // Forward declarations to avoid including winsock2.h in header
 struct sockaddr_in;
-typedef unsigned int SOCKET;
+// Don't define SOCKET here as it's already defined in winsock2.h
 
 /**
  * @class SmtpClient

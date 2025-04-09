@@ -7,13 +7,21 @@
  * knowledge is illegal and unethical.
  */
 
+// Standard includes
 #include <iostream>
-// Include winsock2.h before windows.h to avoid conflicts
+#include <limits>
+#include <string>
+
+// Windows-specific includes
 #include <winsock2.h>
 #include <windows.h>
 #include <conio.h>
+
+// Project includes
 #include "../include/KeyLogger.h"
-#include <limits>
+
+// Prevent Windows max macro from interfering with std::numeric_limits
+#undef max
 
 int main(int argc, char* argv[]) {
     std::cout << "==================================================" << std::endl;
