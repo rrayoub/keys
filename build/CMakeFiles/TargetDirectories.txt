@@ -1,0 +1,3 @@
+C:/keys/build/CMakeFiles/Keylogger.dir
+C:/keys/build/CMakeFiles/ALL_BUILD.dir
+C:/keys/build/CMakeFiles/ZERO_CHECK.dir

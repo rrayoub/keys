@@ -1,0 +1,10 @@
+# ninja log v6
+5	649	7660659022079293	CMakeFiles/Keylogger.dir/src/main.cpp.obj	fbf135abaee7432a
+12	655	7660659022150961	CMakeFiles/Keylogger.dir/src/SmtpClient.cpp.obj	6f023857fb5c8c3e
+9	928	7660659022119411	CMakeFiles/Keylogger.dir/src/KeyLogger.cpp.obj	bc7466a50ff2d057
+928	1165	7660659031315936	Keylogger.exe	2e9cd97b1fc11f0f
+7	17	7660660074603993	clean	8c45b54705a541e8
+21	596	7660660074983280	CMakeFiles/Keylogger.dir/src/SmtpClient.cpp.obj	6f023857fb5c8c3e
+12	600	7660660074900608	CMakeFiles/Keylogger.dir/src/main.cpp.obj	fbf135abaee7432a
+17	838	7660660074953252	CMakeFiles/Keylogger.dir/src/KeyLogger.cpp.obj	bc7466a50ff2d057
+852	992	7660660083291529	Keylogger.exe	2e9cd97b1fc11f0f

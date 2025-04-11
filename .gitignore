@@ -1,0 +1,15 @@
+.vs/
+*.ipch
+*.db
+*.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pdb
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
